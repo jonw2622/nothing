@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-slate-950 text-slate-100;
+}
+
+a {
+  @apply text-emerald-300 hover:text-emerald-200;
+}
+
+input,
+select,
+textarea {
+  @apply text-slate-900;
+}
